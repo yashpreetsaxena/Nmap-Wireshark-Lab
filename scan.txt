@@ -1,0 +1,48 @@
+# Nmap 7.98 scan initiated Sat Feb 14 13:05:15 2026 as: nmap -sS -oN scan.txt 192.168.0.0/24
+Nmap scan report for 192.168.0.1
+Host is up (0.019s latency).
+Not shown: 996 filtered tcp ports (no-response)
+PORT     STATE SERVICE
+22/tcp   open  ssh
+53/tcp   open  domain
+80/tcp   open  http
+1900/tcp open  upnp
+MAC Address: B0:19:21:B9:39:65 (TP-Link PTE.)
+
+Nmap scan report for 192.168.0.101
+Host is up (0.94s latency).
+Not shown: 999 closed tcp ports (reset)
+PORT     STATE    SERVICE
+5060/tcp filtered sip
+MAC Address: FA:63:32:42:84:6F (Unknown)
+
+Nmap scan report for 192.168.0.111
+Host is up.
+All 1000 scanned ports on 192.168.0.111 are in ignored states.
+Not shown: 1000 filtered tcp ports (no-response)
+MAC Address: 70:15:FB:18:69:BA (Intel Corporate)
+
+Nmap scan report for 192.168.0.115
+Host is up (0.058s latency).
+All 1000 scanned ports on 192.168.0.115 are in ignored states.
+Not shown: 1000 closed tcp ports (reset)
+MAC Address: 86:8C:27:18:10:21 (Unknown)
+
+Nmap scan report for 192.168.0.129
+Host is up (0.041s latency).
+Not shown: 999 filtered tcp ports (no-response)
+PORT     STATE SERVICE
+3580/tcp open  nati-svrloc
+MAC Address: F4:4E:B4:60:A7:53 (Unknown)
+
+Nmap scan report for 192.168.0.119
+Host is up (0.0014s latency).
+Not shown: 995 closed tcp ports (reset)
+PORT     STATE SERVICE
+135/tcp  open  msrpc
+139/tcp  open  netbios-ssn
+445/tcp  open  microsoft-ds
+3306/tcp open  mysql
+5357/tcp open  wsdapi
+
+# Nmap done at Sat Feb 14 13:10:59 2026 -- 256 IP addresses (6 hosts up) scanned in 344.16 seconds
